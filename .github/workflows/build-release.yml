@@ -26,7 +26,7 @@ jobs:
 
       - name: Remove dev files
         run: |
-          rm -r .git/ .github/ .idea/ scm/ .gitignore composer.json
+          rm -r .git/ .github/ .gitignore composer.json
           cp index.php vendor/
 
       # Runs a set of commands using the runners shell
